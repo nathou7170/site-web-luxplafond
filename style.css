@@ -1,7 +1,9 @@
 *{
   margin: 0;
   padding: 0;
-  font-family:'Roboto', sans-serif;;
+  font-family:'Roboto', sans-serif;
+  font-size: 17px;
+  scroll-behavior: smooth;
 }
 
 
@@ -62,7 +64,7 @@
   font-size: 42px;
 }
 
-h2{
+h1, h2{
   padding: 30px;
   margin: 30px;
   color: #8a181f;
@@ -81,10 +83,11 @@ h2{
   width: 48rem;
 }
 
-h2, h3{
+#acceuil h1,#acceuil h2,#acceuil h3{
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
+  font-family: 'Merriweather', serif;
 }
 
 h3 {
@@ -177,12 +180,15 @@ h3 {
 .container h2{
   color: #fff;
   text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
 }
 .contact-info{
   margin-top: 10px;
   padding-top: 10px;
   background: #fff;
-  height: 275px;
+  height: 300px;
   border-radius: 10px;
   
 
@@ -216,6 +222,69 @@ h3 {
   margin: 15px;
 
 }
+
+/*FOOTER*/
+
+footer{
+  bottom: 0px;
+  width: 100%;
+  background: #f8f9fa;
+}
+
+.main-content{
+  display: flex;
+}
+.main-content .left{
+  margin: 30px 0 0 0;
+
+}
+
+
+.main-content .box{
+  flex-basis: 50%;
+  padding: 20px 20px;
+}
+
+.box h2, .box h4{
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+}
+
+.box .content{
+  margin: 20px 0px 0px 50px;
+}
+
+.main-content .content,.main-content .center,.main-content .right{
+  text-align: -webkit-match-parent;
+}
+
+.main-content li a{
+  margin: 20px 0px 0px 60px;
+  color: #212529;
+
+}
+.main-content .center{
+  list-style: none;
+
+}
+
+.main-content .place{
+  color: #212529;
+}
+
+#info h3{
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+  color: #8a181f;
+}
+
+#info p{
+  margin: 10px;
+  padding: 10px;
+}
+
 
 
 
